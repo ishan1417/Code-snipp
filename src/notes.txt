@@ -1,0 +1,48 @@
+react.memo()
+call ,apply, bind
+curryingFunction
+debounce and throtteling
+name and default exports
+list and keys
+useState
+useEffect
+useRef
+useContext
+useReducer
+useMemo
+useCallback
+customhooks
+higher order component and functions
+Component Lifecycle
+context api
+react.lazy
+suspense
+react router
+async and await
+PureComponents
+Render Props
+Controlled vs Uncontrolled Components
+Compound Components
+JWT authentication flow
+Token storage (localStorage vs cookies)
+Protected routes using React Router
+Create React App / Vite
+Babel and Webpack basics
+Environment variables in React
+Folder structure best practices
+Typing Props and State
+Using React.FC
+Typing custom hooks
+Handling loading and error states
+
+
+Common Interview Coding Tasks
+Create a counter app with start/stop/reset
+Fetch data and display it with search/filter
+Implement a to-do list with local storage
+Build a pagination component
+Implement debounced search bar
+Implement throtteling
+
+
+

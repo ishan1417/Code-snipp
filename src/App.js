@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import Counter from './Questions/Counter'
+import Debounce from './Questions/Debounce'
+import Pagination from './Questions/Pagination'
+import Search from './Questions/Search'
+import Throttling from './Questions/Throttling'
+import ToDoList from './Questions/ToDoList'
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+      {/* <Counter/> */}
+      {/* <Debounce/> */}
+      {/* <Pagination/> */}
+      <Search/>
+      {/* <Throttling/> */}
+      {/* <ToDoList/> */}
+      
+    </>
+  )
 }
 
-export default App;
+export default App
