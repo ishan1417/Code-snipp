@@ -23,6 +23,8 @@ jobs:
 
       - name: Run tests
         run: npm test -- --watchAll=false
+        env:
+            CI: true
 
       - name: Build project
         run: npm run build
