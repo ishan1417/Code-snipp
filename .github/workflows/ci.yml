@@ -1,16 +1,19 @@
-name: CI Pipeline
+name: CD - Deploy React to GitHub Pages
 
 on:
   push:
-    branches: [ main ]
-  pull_request:
+    branches:
+      - main
+
+permissions:
+  contents: write
 
 jobs:
-  build:
+  deploy:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code
+      - name: Checkout repository
         uses: actions/checkout@v4
 
       - name: Setup Node.js
@@ -23,3 +26,6 @@ jobs:
 
       - name: Build project
         run: npm run build
+
+      - name: Deploy to GitHub Pages
+        run: npm run deploy

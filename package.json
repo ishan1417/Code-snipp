@@ -2,6 +2,7 @@
   "name": "tutorial",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://ishan1417.github.io/Code-snipp",
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.9.1",
@@ -45,6 +46,7 @@
   "devDependencies": {
     "@babel/preset-env": "^7.28.5",
     "@babel/preset-react": "^7.28.5",
-    "babel-jest": "^30.2.0"
+    "babel-jest": "^30.2.0",
+    "gh-pages": "^6.3.0"
   }
 }
