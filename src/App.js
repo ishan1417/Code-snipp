@@ -9,13 +9,7 @@ import ToDoList from './Questions/ToDoList'
 const App = () => {
   return (
     <>
-      {/* <Counter/> */}
-      {/* <Debounce/> */}
-      {/* <Pagination/> */}
-      <Search/>
-      {/* <Throttling/> */}
-      {/* <ToDoList/> */}
-      
+    <div>hellow</div>
     </>
   )
 }
